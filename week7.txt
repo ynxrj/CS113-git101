@@ -1,0 +1,22 @@
+//แลปจารย์แซ็ค
+
+week 7 - Github
+- ติดตั้ง git จาก  https://git-scm.com/downloads ตรวจ version ได้โดย git --version
+- สร้าง directory ที่เก็บงาน ละ cd มายังพื้นที่จัดเก็บไฟล์
+- หลังจากสร้าง git repository ให้ใช้คำสั่ง git init จะได้ hidden file มาโฟลเดอร์นึงแอบไปส่องมาแล้วไม่รู้เรื่อง อย่าเข้าไปส่องเลย
+- ตรวจสอบสถานะว่าไฟล์อยู่บน stage ยังใช้คำสั่ง git status
+- ถ้าไฟล์ยังไม่ขึ้น stage ใช้คำสั่ง git add "file name" ไว้เอาไฟล์ขึ้น stage เตรียม commit
+- ก่อน commit ให้ตั้งค่าชื่อและอีเมลเพื่อระบุตัวผู้ commit (ขั้นตอนนี้ ทำเพียงครั้งเดียว)
+	git config user.name "Your Name"
+	git config user.email "yourmail@ku.th"
+- จากข้อข้างบนถ้าเป็นคอมส่วนตัวให้ใช้ (ขั้นตอนนี้ ทำเพียงครั้งเดียว)
+    git config --global user.name "Your Name"
+	git config --global user.email "yourmail@ku.th"
+- วิธีเอา username / email ออกให้เข้า control panel เลือก creditial manage remove ที่เป็น git
+- วิธี commit ใช้คำสั่ง git commit -m "จะเซฟไฟล์ชืออะไร?" อย่าลืม -m (เหมือนเซฟเกม / checkpoint)
+- ดู checkpoint ใช้ คำสั่ง git log --all --decorate --oneline --graph เพื่อดูว่ามีอะไรเกิดขึ้นกับไฟล์บ้าง
+- สร้าง repos ใน github สมัครก่อนสร้าง
+- เอาไฟล์ลง github ใช้คำสั่ง git push -u origin master
+- สมมุติเพื่อนทำแล้วเราไม่พอใจจะเอาไฟล์เก่าใช้คำสั่ง git checkout <commit-id> <filename>
+- วิธีเอาไฟล์ลงเครื่องเข้า repos ตัวเองใน github ก็อป url ละใช้คำสั่ง git clone https://ตามด้วย url ของงานเรา ใน git bash.
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
