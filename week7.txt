@@ -1,4 +1,4 @@
-//แลปจารย์แซ็ค
+//แลปจารย์แซ็ค <3
 
 week 7 - Github
 - ติดตั้ง git จาก  https://git-scm.com/downloads ตรวจ version ได้โดย git --version
